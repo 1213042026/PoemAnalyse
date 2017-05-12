@@ -1,16 +1,13 @@
 CREATE database poem;
 use poem;
 
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
-
 CREATE TABLE IF NOT EXISTS `tt` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `zi` varchar(10) NOT NULL,
   `sheng` int(11) NOT NULL,
   `yun` varchar(10) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2667 ;
+)  DEFAULT CHARSET=utf8 ;
 
 INSERT INTO `tt` (`id`, `zi`, `sheng`, `yun`) VALUES
 (1, '啊', 1, '0'),
@@ -2679,7 +2676,7 @@ INSERT INTO `tt` (`id`, `zi`, `sheng`, `yun`) VALUES
 (2663, '揍', 0, '6'),
 (2664, '肉', 0, '6'),
 (2665, '兽', 0, '6'),
-(2666, '六', 0, '6')，
+(2666, '六', 0, '6'),
 (2667, '剑', 0, '7'),
 (2668, '忽', 1, 'A'),
 (2669, '传', 1, '7'),
@@ -2717,7 +2714,7 @@ INSERT INTO `tt` (`id`, `zi`, `sheng`, `yun`) VALUES
 (2701, '便', 0, '7'),
 (2702, '襄', 1, '9'),
 (2703, '阳', 1, '9'),
-(2704, '向', 0, '9')，
-(2705, '却', 1, 'B')，
+(2704, '向', 0, '9'),
+(2705, '却', 1, 'B'),
 (2706, '巫', 1, 'D');
 
